@@ -1,27 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_btree.h                                         :+:      :+:    :+:   */
+/*   btree_create_node.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ygorgsena <ygorgsena@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/09 16:20:14 by ygorgsena         #+#    #+#             */
-/*   Updated: 2022/11/09 21:22:25 by ygorgsena        ###   ########.fr       */
+/*   Created: 2022/11/09 16:22:00 by ygorgsena         #+#    #+#             */
+/*   Updated: 2022/11/09 16:26:54 by ygorgsena        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_BTREE_H
-# define FT_BTREE_H
+#include "ft_btree.h"
 
-# include <stdlib.h>
-
-typedef struct s_btree
+t_btree	*btree_create_node(void *item)
 {
-	struct s_btree	*left;
-	struct s_btree	*right;
-	void			*item;
-}	t_btree;
+	t_btree	*root;
 
-t_btree	*btree_create_node(void *item);
-int		btree_level_count(t_btree *root);
-#endif
+	root = malloc(sizeof(*root));
+	if (!root)
+		return (NULL);
+	root->item = item;
+	root->left = NULL;
+	root->right = NULL;
+	return (root);
+}

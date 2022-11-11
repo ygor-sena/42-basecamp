@@ -6,7 +6,7 @@
 /*   By: ygorgsena <ygorgsena@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 16:20:14 by ygorgsena         #+#    #+#             */
-/*   Updated: 2022/11/09 16:26:33 by ygorgsena        ###   ########.fr       */
+/*   Updated: 2022/11/09 20:19:34 by ygorgsena        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,5 @@ typedef struct s_btree
 	void			*item;
 }	t_btree;
 
+t_btree	*btree_create_node(void *item);
 #endif
