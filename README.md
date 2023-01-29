@@ -40,4 +40,4 @@ The table bellow sums up all my progress during 42's Piscine in São Paulo, Braz
 
 ## Acknowledgements
 
-I really want to thank everybody that I had the chance to talk with, especially the ones from my village that endured until the end. I wouldn't have lasted so long without all of you, thanks a lot!
+I really want to thank everybody I had the chance to talk with, especially the ones from my village that endured until the end. I wouldn't have lasted so long without all of you, thanks a lot!
