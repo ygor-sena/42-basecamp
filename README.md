@@ -17,7 +17,7 @@
 
 <h3 align="center">🎉🎊 This is where it all begun! Welcome to my first repository and commit created on April 22, 2022! 🎊🎉 </h4>
 
-## About the basecamp
+## 📣 About the basecamp
 
 The basecamp was an amazing experience where one of the requirements to be a cadet is to help and be helped, to learn how to learn and to be very dedicated.
 
@@ -38,6 +38,6 @@ The table bellow sums up all my progress during 42's Piscine in São Paulo, Braz
 | Exam01 | 28/100 | ✅ |
 | Final Exam | 34/100 | ✅ |
 
-## Acknowledgements
+## 🫂 Acknowledgements
 
 I really want to thank everybody I had the chance to talk with, especially the ones from my village that endured the 21 days of basecamp until the end. I wouldn't have lasted so long without all of you, thanks a lot!
